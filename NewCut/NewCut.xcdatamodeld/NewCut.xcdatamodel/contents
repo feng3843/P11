@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6751" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PYUserData" representedClassName="PYUserData" syncable="YES">
+        <attribute name="strAvatra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strBackgroundCover" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strCompanyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strJifen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strJob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strMaxLoanAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strPackage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strPWD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strTel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strTradeCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strUserId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strValidTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strYue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PYUserData" positionX="-63" positionY="-18" width="128" height="268"/>
+    </elements>
+</model>

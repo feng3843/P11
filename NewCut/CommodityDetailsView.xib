@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JxR-4l-tyH" customClass="CommodityDetailsView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="290"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2xS-1M-qLA">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="257"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="257" id="0uX-dJ-s2e"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJW-2w-Awg">
+                    <rect key="frame" x="16" y="257" width="34" height="33"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WId-28-N4H">
+                    <rect key="frame" x="251" y="257" width="19" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="19" id="80f-nZ-lbN"/>
+                    </constraints>
+                    <state key="normal" image="heart.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="JxR-4l-tyH" eventType="touchUpInside" id="WBI-he-VZT"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4t-rq-YTf">
+                    <rect key="frame" x="273" y="257" width="34" height="33"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="WId-28-N4H" secondAttribute="bottom" id="1mh-g2-lL0"/>
+                <constraint firstAttribute="trailing" secondItem="q4t-rq-YTf" secondAttribute="trailing" constant="13" id="991-7B-bc7"/>
+                <constraint firstItem="qJW-2w-Awg" firstAttribute="leading" secondItem="JxR-4l-tyH" secondAttribute="leading" constant="16" id="Avm-6F-2Ib"/>
+                <constraint firstItem="q4t-rq-YTf" firstAttribute="top" secondItem="2xS-1M-qLA" secondAttribute="bottom" id="E3W-Jj-gLJ"/>
+                <constraint firstAttribute="bottom" secondItem="q4t-rq-YTf" secondAttribute="bottom" id="HJv-Sj-SXE"/>
+                <constraint firstItem="q4t-rq-YTf" firstAttribute="leading" secondItem="WId-28-N4H" secondAttribute="trailing" constant="3" id="LqM-OD-Msv"/>
+                <constraint firstAttribute="trailing" secondItem="2xS-1M-qLA" secondAttribute="trailing" id="PNi-BO-6wh"/>
+                <constraint firstAttribute="bottom" secondItem="qJW-2w-Awg" secondAttribute="bottom" id="PcK-fS-7px"/>
+                <constraint firstItem="2xS-1M-qLA" firstAttribute="top" secondItem="JxR-4l-tyH" secondAttribute="top" id="Quc-IO-eEO"/>
+                <constraint firstItem="WId-28-N4H" firstAttribute="top" secondItem="2xS-1M-qLA" secondAttribute="bottom" id="WCw-V9-LmX"/>
+                <constraint firstItem="qJW-2w-Awg" firstAttribute="top" secondItem="2xS-1M-qLA" secondAttribute="bottom" id="WbB-pA-E8D"/>
+                <constraint firstItem="2xS-1M-qLA" firstAttribute="leading" secondItem="JxR-4l-tyH" secondAttribute="leading" id="efI-Y3-6xu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="descLabel" destination="qJW-2w-Awg" id="god-fC-dKe"/>
+                <outlet property="iconImage" destination="2xS-1M-qLA" id="hdo-Bv-c9n"/>
+                <outlet property="priseCount" destination="q4t-rq-YTf" id="ymp-g4-BU9"/>
+            </connections>
+            <point key="canvasLocation" x="416" y="173"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="heart.png" width="19" height="19"/>
+    </resources>
+</document>

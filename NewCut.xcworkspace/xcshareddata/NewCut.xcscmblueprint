@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "621DE6BEAECC3FEF46B2A32D90A19FD143E259D0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E25A42B847B7FC5DB9AA2280B544CA4127BB0C5D" : 0,
+    "621DE6BEAECC3FEF46B2A32D90A19FD143E259D0" : 0,
+    "1A8EC9866C06DCFA120936EFD24FEEBB605B768F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D7AD72DB-7F9A-40A0-812A-4B8FBA70D940",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E25A42B847B7FC5DB9AA2280B544CA4127BB0C5D" : "NewCut",
+    "621DE6BEAECC3FEF46B2A32D90A19FD143E259D0" : "P11\/",
+    "1A8EC9866C06DCFA120936EFD24FEEBB605B768F" : "jinrong_chaijie"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NewCut",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NewCut.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.puyuninfo.com:7071\/luo.hongwei\/jinrong_chaijie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A8EC9866C06DCFA120936EFD24FEEBB605B768F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:feng3843\/P11.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "621DE6BEAECC3FEF46B2A32D90A19FD143E259D0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.puyuninfo.com:7071\/lei.tao\/newcut.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E25A42B847B7FC5DB9AA2280B544CA4127BB0C5D"
+    }
+  ]
+}
