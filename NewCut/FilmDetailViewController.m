@@ -31,7 +31,7 @@
 #import "HotGoodsModel.h"
 #import "CommentModel.h"
 #import "UIImage+Extensions.h"
-#import "zxViewController.h"
+//#import "zxViewController.h"
 @interface FilmDetailViewController ()<FilmCommentCellDelegate>
 {
     FilmDetailViewController *filmDetailView;
@@ -1352,18 +1352,18 @@
 #pragma mark- 跳转到浏览全部图片界面
 -(void)jump2BrowseImageViewController:(ExhibitionType)pExhibitionType
 {
-    zxViewController  *mycVC  = [[zxViewController   alloc]init];
-    mycVC.filmImages = self.stageImage;
-    [self.navigationController pushViewController:mycVC animated:YES];
-    
-    
-    
-    
-//    ImageBrowseController *vc = [[ImageBrowseController alloc] init];
-//    vc.ImageId = self.strID;
+//    zxViewController  *mycVC  = [[zxViewController   alloc]init];
+//    mycVC.filmImages = self.stageImage;
+//    [self.navigationController pushViewController:mycVC animated:YES];
 //    
-//    vc.type = pExhibitionType;
-//    [self.navigationController pushViewController:vc animated:YES];
+    
+    
+    
+    ImageBrowseController *vc = [[ImageBrowseController alloc] init];
+    vc.ImageId = self.strID;
+    
+    vc.type = pExhibitionType;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*
